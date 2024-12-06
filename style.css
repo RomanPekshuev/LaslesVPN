@@ -1,0 +1,384 @@
+@font-face {
+    font-family: face;
+    src: url(/assets/fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: face sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+header {
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 16.44px;
+    top: 23.49px;
+    right: 70.47px;
+    margin-right: 4.7px;
+}
+
+.logo-small {
+    font-family: face;
+    font-size: 9.4px;
+    font-weight: 400;
+    line-height: 11.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 4.7px;
+}
+
+.logo-smaller {
+    font-family: face;
+    font-size: 9.4px;
+    font-weight: 700;
+    line-height: 11.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.horizontal-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 18.79px; 
+    justify-content: space-around;
+    font-size: 7.52px;
+    text-decoration: none;
+}
+
+header > .container-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header > .navigation {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+    width: 31.01px;
+    height: 8.93px;
+    top: 27.54px;
+    left: 254.65px;
+    gap: 0px;
+    opacity: 0px;
+}
+            
+
+
+header > nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header > nav ul li {
+    margin-right: 20px;
+    margin-left: 20px;
+    list-style-type: none
+}
+
+header > nav ul > li a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+header > nav ul > li span{
+    font-size: smaller;
+}
+
+header > nav ul .btn {
+    width: 70.47px;
+    height: 21.14px;
+    top: 21.43px;
+    left: 535.6px;
+    gap: 0px;
+    border-radius: 23.49px 0px 0px 0px;
+    border: 0.47px 0px 0px 0px;
+    opacity: 0px;
+    border: 0.47px solid #F53855;
+}                       
+
+.container-section-1 {
+    padding: 100px 0;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.mini-container-section {
+    display: flex;
+    column-gap: 19.15px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 70.09px;
+}
+
+h1 {
+    font-size: 23.49px;
+    margin-bottom: 20px;
+}
+
+.grey-text {
+    font-size: 7.52px;
+}
+
+.container-section-1 > p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-2 {
+    display: flex;
+    background-color: #F53838;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    max-width: 117.46px;
+    max-height: 28.19px;
+    font-size: 7.52px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-container {
+    margin-top: 50px;
+}
+
+.grid-container > img{
+    max-width: 500px;
+}
+
+.container-section-2 {
+    background-color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.cont {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.two-list {
+    display: flex;
+}
+
+.two-list > img {
+    width: 238.73px;
+    height: 194.84px;
+}
+
+.two-list-container {
+    width: 80%;
+    max-width: 960px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.feature-list li span{
+  margin-right: 10px;
+  background-color: #2FAB73;
+  border-radius: 25px;
+  width: 9.4px;
+  height: 9.4px;
+}
+
+.feature-list li img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.feature-list li p {
+    margin: 0;
+    color: #4F5665;
+}
+
+
+.two-list-container > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0B132A;
+}
+
+
+.two-list-container > p {
+    line-height: 1.6;
+    color: #4F5665;
+}
+
+.pricing {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+.pricing h2 {
+    margin-bottom: 20px;
+  }
+  
+.plans {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.plan {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 0 10px;
+  }
+
+.plan > img {
+      max-width: 100px;
+      margin-bottom: 20px;
+    }
+.plan > ul {
+      list-style: none;
+      padding: 0;
+      .plan > ul > li {
+        margin-bottom: 10px;
+      }
+    }
+.plan > .price {
+    margin-top: 20px;
+}
+
+  
+.plan button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.free-plan {
+    background-color: #f8f9fa;
+}   
+
+.free-plan > .price p {
+    color: #12182D1A;
+    font-weight: bold;
+}
+ 
+.premium-plan {
+    background-color: #e9ecef;
+}
+
+.premium-plan > .price p {
+    color: #0B132A;
+    font-weight: bold;
+}
+
+.price button{
+    background-color: #dc3545;
+}
+
+@media (max-width: 768px){
+    .plans {
+        flex-direction: column;
+    }    
+    .plans > .plan {
+              margin-bottom: 20px;
+          }
+}
+
+.global-network {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+.global-network h2 {
+    margin-bottom: 20px;
+  }
+  
+.map-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+.map-container > img {
+    max-width: 100%;
+    display: block; /
+}
+  
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos > img {
+      width: 50px;
+      height: auto;
+      margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .map-container {
+      width: 90%;
+    }
+    .logos {
+        flex-wrap: wrap;
+    }
+}
