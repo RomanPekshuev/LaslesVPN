@@ -19,30 +19,21 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
 
 .logo img {
-    width: 16.44px;
-    top: 23.49px;
-    right: 70.47px;
-    margin-right: 4.7px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 .logo-small {
-    font-family: face;
-    font-size: 9.4px;
-    font-weight: 400;
-    line-height: 11.13px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-right: 4.7px;
+    margin: 0;
+    font-size: 1.2em;
 }
 
 .logo-smaller {
-    font-family: face;
-    font-size: 9.4px;
+    font-family: face;;
     font-weight: 700;
     line-height: 11.13px;
     text-align: left;
@@ -56,17 +47,72 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
-    gap: 18.79px; 
-    justify-content: space-around;
-    font-size: 7.52px;
-    text-decoration: none;
+    color: #4F5665;
 }
 
-header > .container-navigation {
+.horizontal-list > li {
+    margin: 0 10px;
+}
+
+.horizontal-list > li > a {
+    text-decoration: none;
+    color: #0B132A;
+}
+
+.auth-buttons {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+}
+
+.auth-buttons {
+    margin-left: 20px;
+}
+
+.btn {
+    border: none;
+    background: #ffffff;
+    font-weight: 700;
+}
+
+.btn-1 {
+    background-color: #FFFFFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+.btn-1:hover {
+    background-color: #FFFFFF;
+}
+
+.Signup-btn {
+    border: #F53855;
+    color: #F53855;
+}
+
+.Signup-btn:hover {
+    background-color: #525d73;
+}
+
+@media (max-width: 768px) {
+    .container-navigation {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .nav-links {
+        flex-direction: column;
+    }      
+    li {
+          margin: 10px 0;
+        }
+}      
+
+.container-navigation {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -88,12 +134,12 @@ header > .navigation {
             
 
 
-header > nav ul {
-    display: flex;
-    flex-direction: row;
+nav ul {
+    display: inline-block;
     margin: 0;
     padding: 0;
     list-style-type: none;
+    text-decoration: none;
 }
 
 header > nav ul li {
@@ -168,6 +214,13 @@ h1 {
     font-size: 7.52px;
     align-items: center;
     justify-content: center;
+
+    width: 117.46px;
+    height: 40.07px;
+    left: 70.47px;
+    top: 224px;
+
+
 }
 
 .grid-container {
@@ -319,7 +372,7 @@ h3 {
 }
  
 .premium-plan {
-    background-color: #e9ecef;
+    border: #F53838;
 }
 
 .premium-plan > .price p {
